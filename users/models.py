@@ -4,7 +4,7 @@ from django.db import models
 # Create your models here.
 class User(AbstractUser):
 
-    """ Custom User Admin """
+    # Custom User Admin
 
     GENDER_MALE = "male"
     GENDER_FEMALE = "female"
